@@ -20,11 +20,12 @@ The SQL analysis should:
 ## Data Generation
 
 The dataset is fully synthetic and was generated specifically for this portfolio project.
-
-- **Customers:** 800 records
-- **Products:** 150 records
-- **Orders:** 3,500 records
-- **Order Items:** 8,200 records
+ 
+| File              | Purpose                                          | Rows  |
+| `customers.csv`   | Customer information and contact details         | 800   |
+| `products.csv`    | Product, category, price, and cost data          | 150   |
+| `orders.csv`      | Customer orders, dates, status, and payment data | 3,500 |
+| `order_items.csv` | Product-level details for each order             | 8,200 |
 
 Intentional data-quality issues were added, including duplicates, NULL values, inconsistent formats, invalid dates, incorrect prices and discounts, and orphan records.
 
